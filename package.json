@@ -12,9 +12,14 @@
   },
   "private": true,
   "dependencies": {
+    "@nestjs/common": "^11.1.9",
+    "@nestjs/core": "^11.1.9",
+    "@nestjs/platform-express": "^11.1.9",
+    "@nestjs/swagger": "^11.2.3",
     "dotenv": "^17.2.3",
     "p-limit": "^7.2.0",
     "playwright": "^1.56.1",
+    "swagger-ui-express": "^5.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
