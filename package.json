@@ -1,0 +1,25 @@
+{
+  "name": "facebook-group-post-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ts-node  facebookGroupParserNew.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fjg00/Facebook-Group-Post-Scraper.git"
+  },
+  "private": true,
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "p-limit": "^7.2.0",
+    "playwright": "^1.56.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "module-alias": "^2.2.3"
+  }
+}
